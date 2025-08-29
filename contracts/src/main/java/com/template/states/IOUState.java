@@ -53,8 +53,8 @@ public class IOUState implements ContractState {
         return Arrays.asList(lender, borrower);
     }
 
-    // 🔥 Fixed: Now returns the correct value
+    //  Fixed: Now returns the correct value
     public int getValue() {
-        return amount; // 🔥 Instead of returning 0
+        return amount; // Instead of returning 0
     }
 }
